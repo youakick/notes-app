@@ -1,0 +1,23 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  
+html, body {
+height: 100%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+  
+#app {
+flex: 1;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1110px;
+}
